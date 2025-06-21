@@ -4,7 +4,6 @@
 - [Usage](https://github.com/jotavemonte/lazydocker#usage)
 - [Keybindings](/docs/keybindings)
 - [Cool Features](https://github.com/jotavemonte/lazydocker#cool-features)
-- [Contributing](https://github.com/jotavemonte/lazydocker#contributing)
 - [Config Docs](/docs/Config.md)
 - [FAQ](https://github.com/jotavemonte/lazydocker#faq)
 
@@ -35,13 +34,6 @@ everything is one keypress away (or one click away! Mouse support FTW):
 - viewing the ancestor layers of a given image
 - pruning containers, images, or volumes that are hogging up disk space
 
-## Contributing
-
-There is still a lot of work to go! Please check out the [contributing guide](CONTRIBUTING.md).
-For contributor discussion about things not better discussed here in the repo, join the discord channel
-
-<a href="https://discord.gg/ehwFt2t4wt"><img src='/docs/resources/discord.png' width='75'></a>
-
 ## FAQ
 
 ### How do I edit my config?
@@ -61,9 +53,3 @@ Mac Users: See [Issue #190](https://github.com/jesseduffield/lazydocker/issues/1
 ### Why can't I see my container's logs?
 
 By default we only show logs from the last hour, so that we're not putting too much strain on the machine. This may be why you can't see logs when you first start lazydocker. This can be overwritten in the config's `commandTemplates`
-
-## Alternatives
-
-- [docui](https://github.com/skanehira/docui) - Skanehira beat me to the punch on making a docker terminal UI, so definitely check out that repo as well! I think the two repos can live in harmony though: lazydocker is more about managing existing containers/services, and docui is more about creating and configuring them.
-- [Portainer](https://github.com/portainer/portainer) - Portainer tries to solve the same problem but it's accessed via your browser rather than your terminal. It also supports docker swarm.
-- See [Awesome Docker list](https://github.com/veggiemonk/awesome-docker/blob/master/README.md#terminal) for similar tools to work with Docker.
